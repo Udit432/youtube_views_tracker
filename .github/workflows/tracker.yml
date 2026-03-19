@@ -23,6 +23,8 @@ jobs:
           pip install requests
           pip install gspread
           pip install google-auth
+          pip install google-auth-oauthlib
+          pip install google-auth-httplib2
 
       - name: Run tracker
         run: python tracker.py
